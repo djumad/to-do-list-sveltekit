@@ -1,4 +1,3 @@
-import { redirect } from "@sveltejs/kit";
 import Mahasiswa from "../../database/models/Mahasiswa";
 
 export const load = async({params}) =>{
